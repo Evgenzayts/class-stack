@@ -79,7 +79,7 @@ const T& Stack_2<T>::head() const {
 
 template <typename T>
 Stack_2<T>::~Stack_2() {
-  while(my_stack) {
+  while (my_stack) {
     this->pop();
   }
 }

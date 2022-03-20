@@ -1,7 +1,7 @@
 // Copyright 2021 Evgenzayts evgenzaytsev2002@yandex.ru
 
-#ifndef INCLUDE_STACK_HPP_
-#define INCLUDE_STACK_HPP_
+#ifndef INCLUDE_STACK_1_HPP_
+#define INCLUDE_STACK_1_HPP_
 
 #include <utility>
 
@@ -74,9 +74,9 @@ const T& Stack_1<T>::head() const {
 
 template <typename T>
 Stack_1<T>::~Stack_1() {
-  while(my_stack) {
+  while (my_stack) {
     this->pop();
   }
 }
 
-#endif  // INCLUDE_STACK_HPP_
+#endif  // INCLUDE_STACK_1_HPP_
