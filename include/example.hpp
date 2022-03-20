@@ -1,7 +1,9 @@
-// Copyright 2021 Your Name <your_email>
+// Copyright 2021 Evgenzayts evgenzaytsev2002@yandex.ru
 
 #ifndef INCLUDE_EXAMPLE_HPP_
 #define INCLUDE_EXAMPLE_HPP_
+
+#include <iostream>
 
 auto example() -> void;
 
